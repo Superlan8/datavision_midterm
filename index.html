@@ -1,0 +1,169 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Web Fundamentals Workshop</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="portfolio-1/assets/css/main.css"/>
+		<!-- <link rel="stylesheet" href="portfolio-1/hw1/style.css"/> -->
+		<noscript><link rel="stylesheet" href="portfolio-1/assets/css/noscript.css"/></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper-->
+			<div id="wrapper">
+
+				<!-- Nav -->
+					<nav id="nav">
+						<a href="#" class="icon solid fa-home"><span>Home</span></a>
+						<a href="#work1" class="icon solid fa-folder"><span>Line & scatter</span></a>
+						<a href="#work2" class="icon solid fa-folder"><span>Bar chart</span></a>
+						<a href="#work3" class="icon solid fa-folder"><span>Pie chart</span></a>
+						<a href="#experience" class="icon solid fa-envelope"><span>心得</span></a>
+						<!-- <a href="https://twitter.com/ajlkn" class="icon brands fa-twitter"><span>Twitter</span></a> -->
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Me -->
+							<article id="home" class="panel intro">
+								<header>
+									<h1>110502010 莊秉郁</h1>
+									<p>Data Viz - 1121</p>
+								</header>
+								<a href="#work1" class="jumplink pic">
+									<span class="arrow icon solid fa-chevron-right"><span>See my work</span></span>
+									<img src="portfolio-1/images/me.png" alt="" />
+								</a>
+							</article>
+
+						<!-- Work -->
+							<article id="work1" class="panel">
+								<header>
+									<h2>老年人口統計</h2>
+								</header>
+								<p>
+									近年來，台灣地區老年人口持續增加。從107年到111年期間，我將這些城市獨居老人的調查和統計，並將結果整理成圖表。
+									<br>
+									台北的數據呈現出穩定的增長趨勢。從107年到111年，獨居老人的數量持續上升，這種增長趨勢相當穩定且明顯。
+									<br>
+									台中與桃園的人數雖然有點波動，但整體的數量並沒有大幅度的改動。
+									<br>
+									比較特別的是台南在110-111年有個特別的上升，這個原因可能跟疫情爆發有關，造成獨居老人的人數突升。
+								<div id="hw1_myGraph"></div>
+								<section>
+									<div class="row">
+										<li><a href="https://dep.mohw.gov.tw/dos/cp-5223-62358-113.html">資料來源: 衛生福利部統計處</a></li>
+									</div>
+								</section>
+							</article>
+
+							<article id="work2" class="panel">
+								<header>
+									<h2>總統大選投票分佈</h2>
+								</header>
+								<p>
+									總統大選是台灣最具意義的選舉，我選擇了台北市和高雄市兩個地區來進行比較，有兩個原因。
+									<br>
+									1. 兩個城市分別是北部與南部的最大都市，可以透過這個比較，看出台灣兩種不同風土文化的投票差異。
+									<br>
+									2. 兩城市的投票人數是相對接近的，這會方便我們進行比較，也會讓比較結果更具說服性。 
+									<br>
+									從結果可以看出，在南部地區，民進黨還是佔有大部分的支持者，相較於北部地區，藍綠差距較懸殊。
+								</p>
+								<div id="hw2_myGraph"></div>
+								<section>
+									<div class="row">
+										<li><a href="https://web.cec.gov.tw/central/cms/ElecAgeSexstatistics/34570">資料來源: 中央選舉委員會</a></li>
+										<!-- <div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic12.jpg" alt=""></a>
+										</div> -->
+									</div>
+								</section>
+							</article>
+
+							<article id="work3" class="panel">
+								<header>
+									<h2>外銷訂單分佈</h2>
+								</header>
+								<p>
+									以下四圖，分別不同產品外銷到的國家佔比。
+									<br>
+									可以看出台灣不管是在以下四種的哪種，外銷美國的基本上是最大宗，較特別的是資訊通信產品，歐洲佔了與美國佔了大部分的外銷佔比，打破大多數人認為中國應該是該外銷佔比的主力的觀念。
+									<br>
+									此外，東協也是許多人忽視掉的一個外銷市場，它在許多產品也占了10多%的外銷佔比，甚至是比日本市場還要大的。
+								</p>
+								<div id="hw3_myGraph"></div>
+								<section>
+									<div class="row">
+										<li><a href="https://dmz26.moea.gov.tw/GA/visualize/Visualize.aspx">資料來源: 經濟部統計處</a></li>
+										<!-- <div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic12.jpg" alt=""></a>
+										</div> -->
+									</div>
+								</section>
+							</article>
+
+						<!-- Contact -->
+							<article id="experience" class="panel">
+								<header>
+									<h2>心得</h2>
+								</header>
+								<form action="#" method="post">
+									<div>
+										<div class="row">
+											<p>
+												在資料視覺化這堂課中，老師讓我們練習了很多種圖表，也學到很多運用圖表的優點。
+												<br>
+												圖表可以將枯燥的數據轉化為生動直觀的圖，讓我們更輕鬆地理解和分析數據，而且，不同類型的圖表（例如柱狀圖、折線圖、圓餅圖等）能突顯不同方面的數據特徵，讓我們更容易掌握數據的含義。
+												<br>
+												此外，老師在上課也有教到許多有用的知識，比如說像Github和一些background的使用，讓我學到很多。
+											</p>
+											<img src="portfolio-1/images/images.png" alt="" />
+											<!-- <div class="col-6 col-12-medium">
+												<input type="text" name="name" placeholder="Name" />
+											</div>
+											<div class="col-6 col-12-medium">
+												<input type="text" name="email" placeholder="Email" />
+											</div>
+											<div class="col-12">
+												<input type="text" name="subject" placeholder="Subject" />
+											</div>
+											<div class="col-12">
+												<textarea name="message" placeholder="Message" rows="6"></textarea>
+											</div>
+											<div class="col-12">
+												<input type="submit" value="Send Message" />
+											</div> -->
+										</div>
+									</div>
+								</form>
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<div id="footer">
+						<ul class="copyright">
+							<li>&copy; Untitled.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="portfolio-1/assets/js/jquery.min.js"></script>
+			<script src="portfolio-1/assets/js/browser.min.js"></script>
+			<script src="portfolio-1/assets/js/breakpoints.min.js"></script>
+			<script src="portfolio-1/assets/js/util.js"></script>
+			<script src="portfolio-1/assets/js/main.js"></script>
+			<script src="https://cdn.plot.ly/plotly-2.26.0.min.js"></script>
+			<script src="portfolio-1/hw1/data.js"></script>
+			<script src="portfolio-1/hw1/main.js"></script>
+			<script src="portfolio-1/hw2/data.js"></script>
+			<script src="portfolio-1/hw2/main.js"></script>
+			<script src="portfolio-1/hw3/data.js"></script>
+			<script src="portfolio-1/hw3/main.js"></script>
+	</body>
+</html>
